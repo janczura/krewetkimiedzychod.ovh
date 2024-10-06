@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergiusz Jańczura</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<container>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mkgnwzbz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message">Cześć, chciałbym spytać czy dostępne są zółte krewetki i w jakiej ilości? W jaki sposób są sprzedawane?</textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+</container>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> <a href="janczura.dev">Sergiusz Jańczura</a>. All rights reserved.</p>
+    </footer>
+</div>
+
+<script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
